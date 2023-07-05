@@ -12,26 +12,45 @@
 </head>
 
 <body>
-    <div class="container">
-        <div>
-            <h3>HOME</h3>
-            <span id="score-home">0</span>
-            <div class="btn-box">
-                <button onclick="addPlusOneHome()">+ 1</button>
-                <button onclick="addPlusTwoHome()">+ 2</button>
-                <button onclick="addPLusThreeHome()">+ 3</button>
+    <!-- Header -->
+    <header>
+        <h1>Basketball<br> 🏀<br> Scoreboard</h1>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Container Wrap content -->
+        <div class="container">
+            <div>
+                <h2>HOME</h2>
+                <div class="box-score">
+                    <span id="score-home">0</span>
+                </div>
+
+                <div class="btn-box">
+                    <button onclick="addPlusOneHome()">+ 1</button>
+                    <button onclick="addPlusTwoHome()">+ 2</button>
+                    <button onclick="addPLusThreeHome()">+ 3</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <h3>GUEST</h3>
-            <span id="score-guest">0</span>
-            <div class="btn-box">
-                <button onclick="addPlusOneGuest()">+ 1</button>
-                <button onclick="addPlusTwoGuest()">+ 2</button>
-                <button onclick="addPlusThreeGuest()">+ 3</button>
+            <div>
+                <h2>GUEST</h2>
+                <div class="box-score">
+                    <span id="score-guest">0</span>
+                </div>
+
+                <div class="btn-box">
+                    <button onclick="addPlusOneGuest()">+ 1</button>
+                    <button onclick="addPlusTwoGuest()">+ 2</button>
+                    <button onclick="addPlusThreeGuest()">+ 3</button>
+                </div>
             </div>
+
         </div>
-    </div>
+        <section class="btn-newGame">
+            <button onclick="resetGame()">New Game</button>
+        </section>
+    </main>
+    <footer></footer>
     <script src="js/script.js"></script>
 </body>
 

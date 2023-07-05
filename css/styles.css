@@ -3,6 +3,14 @@
 *::before {
   box-sizing: border-box;
 }
+
+:root {
+  --color-bg: #1b244a;
+  --color-txt: #eee;
+  --color-bg-score: #080001;
+  --color-txt-score: #f94f6d;
+  --color-txt-btn: #9aabd8;
+}
 /* Custom Fonts */
 @font-face {
   font-family: "cursed_timer_ulilregular";
@@ -12,12 +20,89 @@
   font-style: normal;
 }
 /* Basic Styles */
+
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-txt);
+  font-size: 16px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+h2,
+h1 {
+  margin: 0;
 }
 
 .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 100%;
+}
+
+.container,
+header {
+  padding: 1rem 0;
+}
+
+button {
+  border: 2px solid;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Style box score */
+.box-score {
+  background-color: var(--color-bg-score);
+  color: var(--color-txt-score);
+  width: 10.313rem;
+  padding: 1.5rem 2rem;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box-score span {
+  font-family: "cursed_timer_ulilregular";
+  font-size: 5.625rem;
+}
+
+/* Style box btn */
+.btn-box,
+.box-score {
+  margin-top: 1.3rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-box button {
+  font-family: "cursed_timer_ulilregular";
+  color: var(--color-txt-btn);
+  width: 45px;
+  height: 45px;
+}
+
+/* Style btn new game */
+.btn-newGame {
+  margin-top: 1.3rem;
+}
+
+.btn-newGame button {
+  color: var(--color-txt);
+  border: none;
+  background-color: #b45309;
+  padding: 0.7rem 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
