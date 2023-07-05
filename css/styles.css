@@ -19,6 +19,9 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: ;
+}
 /* Basic Styles */
 
 body {
@@ -32,6 +35,7 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
+  overflow: hidden;
 }
 
 h2,
