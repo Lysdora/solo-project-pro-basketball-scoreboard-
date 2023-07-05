@@ -37,8 +37,3 @@ function resetGame() {
 }
 
 //Hightligth winner function
-
-if (scoreHome !== nul) {
-  document.getElementById("score-home").style.color = "green";
-  console.log("Hello");
-}

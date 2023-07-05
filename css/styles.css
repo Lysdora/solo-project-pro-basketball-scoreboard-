@@ -14,7 +14,7 @@
 /* Custom Fonts */
 @font-face {
   font-family: "cursed_timer_ulilregular";
-  src: url("fonts/cursedtimerulil-aznm-webfont.woff2") format("woff2"),
+  src: url("/fonts/cursedtimerulil-aznm-webfont.woff2") format("woff2"),
     url("/fonts/cursedtimerulil-aznm-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
