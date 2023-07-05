@@ -30,6 +30,8 @@ function addPlusThreeGuest() {
 
 //Add function reset
 function resetGame() {
+  scoreGuest = 0;
+  scoreHome = 0;
   //For score Home
   document.getElementById("score-home").textContent = reset;
   //For score Guest
