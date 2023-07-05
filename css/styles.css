@@ -13,13 +13,12 @@
 }
 /* Custom Fonts */
 @font-face {
-  font-family: "cursed_timer_ulilregular";
-  src: url("/fonts/cursedtimerulil-aznm-webfont.woff2") format("woff2"),
-    url("/fonts/cursedtimerulil-aznm-webfont.woff") format("woff");
-  src: url("/fonts/CursedTimerUlil-Aznm.ttf");
+  font-family: "CursedTimerUlil-Aznm";
+  src: url("/fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 /* Basic Styles */
 
 body {
@@ -73,7 +72,7 @@ button {
 }
 
 .box-score span {
-  font-family: "cursed_timer_ulilregular";
+  font-family: "CursedTimerUlil-Aznm";
   font-size: 5.625rem;
 }
 
@@ -87,7 +86,7 @@ button {
 }
 
 .btn-box button {
-  font-family: "cursed_timer_ulilregular";
+  font-family: "CursedTimerUlil-Aznm";
   color: var(--color-txt-btn);
   width: 45px;
   height: 45px;
