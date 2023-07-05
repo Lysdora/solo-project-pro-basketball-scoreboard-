@@ -14,7 +14,7 @@
 /* Custom Fonts */
 @font-face {
   font-family: "CursedTimerUlil-Aznm";
-  src: url("/fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
+  src: url("/css/CursedTimerUlil-Aznm.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
