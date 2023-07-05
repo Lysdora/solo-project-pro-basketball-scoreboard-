@@ -16,6 +16,7 @@
   font-family: "cursed_timer_ulilregular";
   src: url("/fonts/cursedtimerulil-aznm-webfont.woff2") format("woff2"),
     url("/fonts/cursedtimerulil-aznm-webfont.woff") format("woff");
+  src: url("/fonts/CursedTimerUlil-Aznm.ttf");
   font-weight: normal;
   font-style: normal;
 }
