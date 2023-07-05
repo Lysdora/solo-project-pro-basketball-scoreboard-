@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Basketball-Scoreboard</title>
 </head>
@@ -12,9 +15,22 @@
     <div class="container">
         <div>
             <h3>HOME</h3>
+            <span id="score-home">0</span>
+            <div class="btn-box">
+                <button onclick="addPlusOne()">+ 1</button>
+                <button onclick="addPlusTwo()">+ 2</button>
+                <button onclick="addPLusThree()">+ 3</button>
+            </div>
         </div>
         <div>
             <h3>GUEST</h3>
+            <span id="score-guest">0</span>
+            <div class="btn-box">
+
+                <button onclick="addPlusOne()">+ 1</button>
+                <button onclick="addPlusTwo()">+ 2</button>
+                <button onclick="addPlusThree()">+ 3</button>
+            </div>
         </div>
     </div>
     <script src="js/script.js"></script>
