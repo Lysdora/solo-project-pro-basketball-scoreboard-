@@ -29,6 +29,7 @@ body {
   padding: 0;
   font-family: Verdana, sans-serif;
   background-color: var(--color-bg);
+  background-attachment: fixed;
   color: var(--color-txt);
   font-size: 16px;
   text-align: center;
